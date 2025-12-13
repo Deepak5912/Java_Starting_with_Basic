@@ -16,10 +16,16 @@ public class classesObjectdemo {
 //        car2.year = 2025;
 //        car2.Speed = 200;
 //        car2.brand = "Siera";
+
         car2.derive();
 
         Date date = new Date();
         System.out.println(date);
         System.out.println(date.toString());
+
+        car2.getBrand();
+        System.out.println(car2.getBrand());
+        car2.setBrand("BMW");
+        System.out.println(car2.getBrand());
     }
 }
