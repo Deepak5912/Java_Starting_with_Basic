@@ -27,6 +27,26 @@ public class LibraryDemo {
     }
 }
 
+
+
+
+
+/*
+
+ public void borrowBook(int bookrequestedCount) throws Exception {
+
+//            int [] books = {101,102,103};
+//            System.out.println("book requested :"+ books[bookrequested]);
+            if(bookrequestedCount > avialbaleBooks){
+               throw new Exception("Requested book count is more than available books");
+            }if(bookrequestedCount < 0){
+                throw new Exception("Requested book count cannot be negative");
+            }
+
+
+    }
+ */
+
 // ###################### using of throw keyword #########################
 
 //public void borrowBook(int bookrequestedCount){
