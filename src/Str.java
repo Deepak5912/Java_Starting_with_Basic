@@ -22,6 +22,7 @@ public class Str {
             System.out.println("String does not end with peace");
         }
         System.out.println(str.compareToIgnoreCase(str1));
-        System.out.println(str.split("come")[2]);
+       // System.out.println(str.split("come")[2]);
+        System.out.println(str.trim());
     }
 }
